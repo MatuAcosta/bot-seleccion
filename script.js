@@ -8,8 +8,8 @@ const bot = async () => {
     const element = await page.waitForSelector('.home-events > .row > .col-md-12:nth-child(1)' );
     await element.click();
     await element.dispose();
-    console.log('estoy aca');
-    console.log(element); 
+    //console.log('estoy aca');
+    //console.log(element); 
 
 }
 
